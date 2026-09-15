@@ -11,5 +11,10 @@ pipeline{
                 echo 'Junit test Successfully'
             }
         }
+        stage('Code Analysis'){
+            steps{
+                echo 'Code Analysis Completed Successfully'
+            }
+        }
     }
 }
